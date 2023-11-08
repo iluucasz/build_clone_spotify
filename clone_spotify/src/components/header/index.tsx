@@ -5,7 +5,7 @@ export const Header = () => {
     return (
 
         <header className="w-full h-14 bg-black text-white justify-center lg:h-20">
-            <div className="flex w-full h-full items-center justify-between px-4 mx-auto md:max-w-3xl lg:max-w-5xl xl:max-w-7xl">
+            <div className="flex w-full h-full items-center justify-between px-4 mx-auto md:max-w-3xl lg:max-w-5xl xl:max-w-6xl">
 
                 <div className="flex flex-1 items-center justify-between">
                     <img src={spotifyLogo} alt="logo spotify" className="w-24 lg:w-32 cursor-pointer" />

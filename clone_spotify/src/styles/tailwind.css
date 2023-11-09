@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 @layer base {
-    li {
+    /* li {
         @apply cursor-pointer hover:text-green-500;
-    }
+    } */
 }
 

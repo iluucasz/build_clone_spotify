@@ -1,27 +1,36 @@
-# React + TypeScript + Vite
+# Clone Spotify
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Descrição
 
-Currently, two official plugins are available:
+Template feito com as caracteristicas do site oficial do spotify que está em vigência atualmente (dd/mm/yy) 10/11/23
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Links para contato
 
-## Expanding the ESLint configuration
+[github] (https://github.com/iluucasz)
+[linkedin] (https://www.linkedin.com/in/lucas-santos-a35070146/)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Todas as ferramentas usadas estão no package.json
 
-- Configure the top-level `parserOptions` property like this:
+Feito usando apenas tailwind como estilizador,
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+Dependências auxiliares:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+"dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.11.0"
+  },
+
+Versão do Tailwind:
+ "tailwindcss": "^3.3.5",
+
+
+## Configurações do projeto
+ As configurações se encontram no arquivo tailwind.config.js
+
+
+## Como rodar este projeto?
+
+Para iniciar é muito simples, basta ter o Node.js instalado em sua máquina e digitar no terminal o comando "npm install", 
+Após isto entre na pasta raíz com "cd nome_da_pasta",
+agora basta digitar "npm run dev"
